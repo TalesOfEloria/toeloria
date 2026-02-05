@@ -1,0 +1,92 @@
+{
+	"id": "toeloria",
+	"title": "Tales of Eloria",
+	"description": "A Fantasy/Pre-Steampunk System written by Zolthex",
+	"version": "0.2021.09",
+	"compatibility": {
+		"minimum": "0.8.9",
+		"verified": "0.8.9",
+		"maximum": "13.351"
+	  },
+	  "authors": [
+		{
+		  "name": "Zolthex",
+		  "url": "https://github.com/Zolthex/",
+		  "email": "Dirk.Motylski@web.de",
+		  "discord": "Kira#1062"
+		}
+	],
+	"relationships": {},
+	"scripts": [],
+	"esmodules": ["module/toeloria.js"],
+	"styles": ["css/toeloria.css"],
+	"packs": [
+		{
+		  "label": "Item",
+		  "type": "Item",
+		  "name": "item",
+		  "path": "packs/item.db",
+		  "system": "toeloria",
+		  "package": "toeloria",
+		  "private": false
+		},
+		{
+			"label": "Fähigkeiten",
+			"type": "Item",
+			"name": "fahigkeiten",
+			"path": "packs/fahigkeiten.db",
+			"system": "toeloria",
+			"package": "toeloria",
+			"private": false
+		  },
+		  {
+			"label": "Fertigkeiten (speziell)",
+			"type": "Item",
+			"name": "fertigkeiten-speziell",
+			"path": "packs/fertigkeiten-speziell.db",
+			"system": "toeloria",
+			"package": "toeloria",
+			"private": false
+		  },
+		  {
+			"label": "Waffen & Rüstungen",
+			"type": "Item",
+			"name": "waffen-and-rustungen",
+			"path": "packs/waffen-and-rustungen.db",
+			"system": "toeloria",
+			"package": "toeloria",
+			"private": false
+		  },
+		  {
+			"label": "Nichtspieler Charaktere",
+			"type": "Actor",
+			"name": "nichtspieler-charaktere",
+			"path": "packs/nichtspieler-charaktere.db",
+			"system": "toeloria",
+			"package": "toeloria",
+			"private": false
+		  },
+		  {
+			"label": "Gegnerische Charaktere",
+			"type": "Actor",
+			"name": "gegnerische-charaktere",
+			"path": "packs/gegnerische-charaktere.db",
+			"system": "toeloria",
+			"package": "toeloria",
+			"private": false
+		  },
+		  {
+			"label": "Essen & Proviant",
+			"type": "Item",
+			"name": "essen-and-proviant",
+			"path": "packs/essen-and-proviant.db",
+			"system": "toeloria",
+			"package": "toeloria",
+			"private": false
+		  }		
+	  ],
+	"languages": [],
+	"initiative": "1d6 + @Ini_Bonus",
+	"gridDistance": 1,
+	"gridUnits": "m"
+}
