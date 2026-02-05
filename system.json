@@ -9,9 +9,9 @@
 	  },
 	  "authors": [
 		{
-		  "name": "Zolthex",
-		  "url": "https://github.com/Zolthex/",
-		  "email": "Dirk.Motylski@web.de",
+		  "name": "Kira.Berg",
+		  "url": "https://github.com/TalesOfEloria/",
+		  "email": "Kira.Sayo.Berg@web.de",
 		  "discord": "Kira#1062"
 		}
 	],
@@ -89,4 +89,5 @@
 	"gridDistance": 1,
 	"gridUnits": "m"
 }
+
 
