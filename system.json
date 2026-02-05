@@ -1,11 +1,12 @@
 {
+	"id": "toeloria",
 	"title": "Tales of Eloria",
 	"description": "A Fantasy/Pre-Steampunk System written by Zolthex",
 	"version": "0.2021.09",
 	"compatibility": {
 		"minimum": "0.8.9",
 		"verified": "0.8.9",
-		"maximum": "13.351"
+		"maximum": "13"
 	  },
 	  "authors": [
 		{
@@ -89,5 +90,6 @@
 	"gridDistance": 1,
 	"gridUnits": "m"
 }
+
 
 
